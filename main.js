@@ -238,17 +238,112 @@
 // console.log(text5);
 
 
+// function hello() {
+//     console.log("hello");
+    
+// }
+// hello()
+// function sum(a,b) {
+//     console.log(a+b);
+    
+// }
+// sum(2, "apple")
 
 
+// function sumall(a,b,c,d,e,f,g,h) {
+//     console.log(a+b+c+d+e+f+g+h);
+    
+// }
+
+// sumall(1,2,3,4,5,6,7,8)
+
+// function sum(a,b) {
+//     return a+b;
+    
+// }
+// let a=sum(4,6)
+// console.log(a);
 
 
+// let b=function () { return "hello";}
+// console.log(b());
+
+// // erow function
+
+// let intro=()=>{
+//     console.log("Ali");
+    
+// }
+// intro()
+
+// let intro1=(name)=>{
+//     console.log(`hello my name is ${name}`);
+    
+// }
+// intro1()
+// intro1("ali")
+//  function argument() {
+//     return (`thank you`)
+    
+//  }
+//  console.log(argument());
+ 
+//  function sum(n,m) {
+//     console.log(n+m);
+    
+//  }
+//  sum(10,8);
+//  function check(num) {
+//     if (num % 2==0) {
+//         console.log("even");
+        
+//     } else {
+//         console.log("odd");
+        
+//     }
+//  }
+//  check()
+//  function square(g) {
+//     console.log(g*g);
+    
+//  }
+//  square(2)
+
+//  function convert(celsius) {
+
+//     return (celsius*9/5+32)
+    
+//  }
+//  let h=convert(37)
+//  convert(37)
+//  console.log(h);
+ 
+//  regular expression
+// let text="visit W3School"
+// let n=text.search(/w3school/i)
+// console.log(n);
 
 
+// let text="There are many teachers in my school but ms. madiha is my favourit teacher"
+// let pattern=/my/g
+// let result=text.match(pattern)
+// console.log(result);
+
+ const phone=/^((\+92)|(0092))-{0,1}\d{3}-{0,1}\d{7}$|^\d{11}$|^\d{4}-\d{7}$/;
+ let phone1="03567927900" 
+ let phone1_result=phone.test(phone1)
+console.log(phone1_result);
+
+const cnicreg=(/"^[0-9]{5}-[-|]-[0-9]{7}-[-|]-[0-9]{1}"/)
+let cnic="34201-1234567-6"
+let cnic_result=cnicreg.test(cnic)
+console.log(cnic_result);
 
 
-
-
-
+let  EMAIL_REGEX = /(\<|^)[\w\d._%+-]+@(?:[\w\d-]+\.)+(\w{2,})(\>|$)/i;
+let EMAIL="madihakanwal655@gamil.com"
+let email_reg= EMAIL_REGEX.test(EMAIL)
+console.log(email_reg);
 
 
 
